@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.90.36
+- hosts: 172.31.23.132
   user: ansible
   become: yes
   connection: ssh

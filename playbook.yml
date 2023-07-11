@@ -1,0 +1,8 @@
+---
+- hosts: 172.31.90.36
+  user: ansible
+  become: yes
+  connection: ssh
+  tasks:
+   - name: install docker
+     action: yum name=docker state=present
